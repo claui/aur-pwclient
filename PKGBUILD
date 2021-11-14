@@ -9,7 +9,7 @@ license=('GPL')
 depends=(python-pbr)
 makedepends=(python-setuptools)
 checkdepends=(python-pytest python-mock)
-source=("$url/archive/$pkgver.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
 sha256sums=('a4affd5a38170f78b63e752bb110f908c8250f13bfa1d6bbd9abdd6bc157db2c')
 
 build() {
